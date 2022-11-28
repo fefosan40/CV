@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ 
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>CV Online</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+  <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/CV/css/resume.min.css" />
+
+    <link rel="stylesheet" href="/CV/css/styles.css" />
+  </head>
+
+  <body id="page-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top py-3"
+      id="sideNav"
+     >
+     <a class="navbar-brand js-scroll-trigger" href="#page-top">
+     <span id="name"  class="d-block d-lg-none ms-3 ms-lg-0">Federico Sanchez</span>
+      <span class="d-none d-lg-block">
+      <img
+      class="img-fluid img-profile   rounded-circle mx-auto mb-2"
+
+      src="/CV/img/fotoperfil.jpg" alt=""
+            />
+        
+          </span>
+      
+        </a>
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#informacionPersonal">Informacion Personal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#ExperienciaLaboral"
+              >Experiencia Laboral</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education"
+              >Estudios</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Lenguajes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests"
+              >Intereses</a
+            >
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0 bg-primary">
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id=informacionPersonal
+      >
+        <div class="w-100">
+          <h1 class="mb-0">
+            <span class="text-primary"></span>
+          </h1>
+          <div class="subheading mb-5">
+            <span id="address"></span> · <span id="phone"></span> ·
+            <a id="email" href="https://fefosan29@gmail.com"></a>
+          </div>
+          
+          <div class="social-icons">
+            <a id="linkedin" href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a id="github" href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a id="twitter" href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a id="facebook" href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+      <section
+        class="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        id="ExperienciaLaboral"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Experiencia Laboral</h2>
+
+          <div id="jobs-container"></div>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="education"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Estudios</h2>
+
+          <div id="educations-container"></div>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="skills"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Lenguajes</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-css3-alt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-js-square"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-angular"></i>
+
+            <li class="list-inline-item">
+              <i class="fab fa-react"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-node-js"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-sass"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-less"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-wordpress"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-gulp"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-grunt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-npm"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Debugging
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Functional Teams
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="interests"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Intereses</h2>
+          <p>
+            Aparte de ser un desarrollador web, disfruto la mayor parte de mi tiempo con mi familia.Me gusta viajar.
+Cuando me veo obligado a entrar en casa sigo una serie de películas , soy un aspirante a chef y paso gran parte de mi tiempo libre explorando los últimos avances tecnológicos en el mundo del desarrollo web front-end.
+          </p>
+          
+        </div>
+      </section>
+      <div id="inicios"></div>
+
+   </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/CV/js/person.js"></script>
+
+    <script src="/CV/js/app.js"></script>
+  </body>
+</html>
